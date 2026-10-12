@@ -178,7 +178,7 @@ p {
   height: 180px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: 50% 20%;
+  object-position: 46% 30%;
   border: 4px solid var(--surface);
   box-shadow: 0 0 0 2px var(--accent), 0 10px 30px rgba(27, 58, 107, 0.18);
 }
@@ -291,6 +291,40 @@ h2::after {
 
 .education {
   padding: 1.25rem 1.4rem;
+}
+
+.photo-strip {
+  display: grid;
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.about-photo {
+  margin: 0;
+}
+
+.about-photo img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: 50% 45%;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
+.about-photo figcaption {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--ink-muted);
+  margin-top: 0.4rem;
+}
+
+.about-photo .photo-laptop {
+  object-position: 38% 50%;
+}
+
+.about-photo .photo-gatech {
+  object-position: 50% 22%;
 }
 
 .education h3 {
@@ -596,6 +630,18 @@ h2::after {
 /* ---------- Wider screens ---------- */
 
 @media (min-width: 640px) {
+  .photo-strip {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .about-photo img {
+    aspect-ratio: 4 / 5;
+  }
+
+  .about-photo .photo-gatech {
+    object-position: 50% 55%;
+  }
+
   .skills-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -640,6 +686,7 @@ h2::after {
     gap: 2.5rem;
     align-items: start;
   }
+
 
   .project-grid {
     grid-template-columns: repeat(2, 1fr);

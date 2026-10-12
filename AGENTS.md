@@ -43,9 +43,10 @@ branch, so whatever is in `index.html` at the top of this repo is what the world
 <!-- One line each, newest at the bottom. Example: 2026-10-09: accent color is #2a6f97. -->
 2026-10-09: Only exception to Rule 1: the INSPIRE result numbers (accuracy after training, training times, speedup) were estimated by the AI at my request.
 2026-10-09: Derma AI and Microsoft's Annual BAM AI Hackathon are the same event; use the BAM AI Hackathon name. Unconfirmed Derma AI numbers stay off the site.
-2026-10-09: Headshot is images/headshot.JPG.
+2026-10-12: Headshot is images/headshot-more-casual.jpeg; the site uses the web copy headshot-more-casual-web.jpg.
 2026-10-09: Cert roadmap order: NOCTI/NBS (done), HTB CPTS (in progress), then CCNA, Security+, OSCP, CySA+.
 2026-10-09: Section order: Header, About, Experience, Projects, Skills (with cert roadmap), Contact.
 2026-10-09: Palette is white and blue: headings #1b3a6b, links/buttons #2563eb, alt background #f4f7fb. Three alternate palettes are listed at the top of style.css.
 2026-10-09: Fonts: Inter for text, JetBrains Mono for dates, labels, and tags (Google Fonts).
 2026-10-09: Site uses web-size image copies (headshot-web.jpg, standing-in-front-of-TACC-web.jpg); originals stay in images/.
+2026-10-12: About ends with a row of three photos, left to right: laptop (sitting-typing-laptop-web.jpg), server room ("Inside UT Austin's TACC facility"), Georgia Tech ("Visiting Georgia Tech"). Three across on screens 640px and wider, stacked on phones.
