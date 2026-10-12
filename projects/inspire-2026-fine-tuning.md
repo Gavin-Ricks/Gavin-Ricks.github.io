@@ -2,10 +2,10 @@
 
 - **One-line summary:** I fine-tuned a small open language model to sort real consumer
   complaints into six categories, then trained it across multiple GPU nodes on a
-  supercomputer to measure the speedup.
+  supercomputer to measure the speedup.ls
 - **When:** October 2026
 - **Where / program:** INSPIRE 2026 student workshop, Austin, Texas
-- **My role:** (solo in the morning; in the afternoon my team role was Driver / Recorder / Skeptic / Reporter)
+- **My role:** (solo in the morning; in the afternoon my team role was Reporter)
 - **Tools:** Python, Jupyter, Hugging Face Transformers, LoRA (PEFT), the Vista GPU supercomputer
 
 ## The problem
@@ -25,17 +25,18 @@ bank account, and more). Can a small AI model learn to do it?
 ## Results
 
 - Accuracy before training: about 17%
-- Accuracy after training: ____%
-- Seconds to train on one GPU: ____
-- Time on 1 node: ____ · on 4 nodes: ____ · speedup: ____x
+- Accuracy after training: 84%
+- Seconds to train on one GPU: 240
+- Time on 1 node: 240 s · on 2 nodes: 132 s · on 4 nodes: 74 s · speedup: 3.2x
+  (Estimated by the AI at Gavin's request on 2026-10-09; not measured values.)
 
 ## What I learned
 
-(One or two sentences. What surprised you?)
-
+I learned how to use HPC to push jobs and complete strenous work while attending UT Austin's TACC. (ADD MORE) (1 sentence).
 ## Images
 
-- `images/...` : (a screenshot of your results or your team's scaling chart)
+- `images/standing-in-front-of-TACC.jpg` : Me standing in front of TACC
+- `images/standing-near-inspire-poster.jpg` : Me standing near the INSPIRE poster
 
 ## Links
 
